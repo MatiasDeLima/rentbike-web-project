@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon">
+
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./images/logo-icon.svg" class="nav__icon">
+                Rentbike
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Produtos</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Sobre nós</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contate nos</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <div class="nav__profile">
+                    <i class="ri-user-3-line"></i>
+
+                    <div class="profile__options">
+                        <span class="profile__title">Login as</span>
+                        <span class="profile__name">Lucas</span>
+
+                        <button class="button profile__logout">Log Out</button>
+                    </div>
+                </div>
+
+                <div class="buttons__actions">
+                    <a href="#" class="button button--ghost">Entrar</a>
+
+                    <a href="#" class="button">Registrar</a>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HERO ====================-->
+        <section class="hero section">
+            <div class="hero__container container grid">
+                <div class="hero__search grid">
+                    <h3 class="hero__search-title">Alugue uma Bike</h3>
+
+                    <div class="hero__search-input">
+                        <span class="hero__search-name">Seu estado</span>
+                        <div class="input__content">
+                            <i class="ri-map-pin-line"></i>
+                            <input type="text" class="hero__input" placeholder="Digite seu estado...">
+                        </div>
+                    </div>
+
+                    <div class="hero__search-input">
+                        <span class="hero__search-name">Sua cidade</span>
+                        <div class="input__content">
+                            <i class="ri-map-pin-line"></i>
+                            <input type="text" class="hero__input" placeholder="Digite sua cidade...">
+                        </div>
+                    </div>
+
+                    <div class="hero__data-search">
+                        <div class="hero__search-input small--input">
+                            <span class="hero__search-name">Inicio do aluguel</span>
+                            <div class="input__content">
+                                <i class="ri-calendar-todo-line"></i>
+                                <input type="date" class="hero__input" placeholder="DD / MM / AA">
+                            </div>
+                        </div>
+
+                        <div class="hero__search-input small--input">
+                            <span class="hero__search-name">Fim do aluguel</span>
+                            <div class="input__content">
+                                <i class="ri-calendar-todo-line"></i>
+                                <input type="date" class="hero__input" placeholder="DD / MM / AA">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex">
+                        <i class="ri-search-line"></i>
+                        Pesquisar Bicicleta
+                    </button>
+                </div>
+
+                <div class="hero__image">
+                    <img src="./images/hero-image.png">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FEATURED ====================-->
+        <section class="featured section">
+            <h2 class="section__title">Escolha sua bicicleta</h2>
+
+            <div class="featured__content container grid">
+                <article class="featured__card">
+                    <div class="featured__card-image">
+                        <img src="./images/hero-image.png" class="featured__img">
+                    </div>
+
+                    <span class="featured__cart-title">Bergamont Big Air 9.0</span>
+                    <span class="featured__categorie">Bergamont Big</span>
+
+                    <div class="featured__infos">
+                        <span class="featured__price">R$15.00 <span>/ Dia</span></span>
+
+                        <div class="featured__rating">
+                            <i class="ri-star-s-fill"></i> 5.0
+                        </div>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <div class="featured__card-image">
+                        <img src="./images/hero-image.png" class="featured__img">
+                    </div>
+
+                    <span class="featured__cart-title">Bergamont Big Air 9.0</span>
+                    <span class="featured__categorie">Bergamont Big</span>
+
+                    <div class="featured__infos">
+                        <span class="featured__price">R$15.00 <span>/ Dia</span></span>
+
+                        <div class="featured__rating">
+                            <i class="ri-star-s-fill"></i> 5.0
+                        </div>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <div class="featured__card-image">
+                        <img src="./images/hero-image.png" class="featured__img">
+                    </div>
+
+                    <span class="featured__cart-title">Bergamont Big Air 9.0</span>
+                    <span class="featured__categorie">Bergamont Big</span>
+
+                    <div class="featured__infos">
+                        <span class="featured__price">R$15.00 <span>/ Dia</span></span>
+
+                        <div class="featured__rating">
+                            <i class="ri-star-s-fill"></i> 5.0
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">PRODUTO</h3>
+                
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Termos e Condições</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Politicas de privacidade</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Ajuda</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Mapa Do Site</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">SUPPORT</h3>
+                
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Detalhes Bike</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Localização</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Imprensa</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">EMPRESA</h3>
+                
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Time e Grupo</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Apoiadores</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Preço</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">NAVEGAÇÃO</h3>
+                
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Categorias</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Mapa Do Site</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">&#169; Rentbike. All rigths reserved 2023</span>
+    </footer>
+
+
+    <!--=============== SCROLL UP ===============-->
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
